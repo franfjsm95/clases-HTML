@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <title>tablas</title>
+  </head>
+  <body>
+    <h1>Clase de tablas</h1>
+    <hr />
+    <ol type="a">
+      <h2><li>Tabla regular</li></h2>
+      <table>
+        <thead>
+          <tr>
+            <th>pos 0</th>
+            <th>pos 1</th>
+            <th>pos 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>0,0</td>
+            <td>0,1</td>
+            <td>0,2</td>
+          </tr>
+          <tr>
+            <td>1,0</td>
+            <td>1,1</td>
+            <td>1,2</td>
+          </tr>
+          <tr>
+            <td>2,0</td>
+            <td>2,1</td>
+            <td>2,2</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>footer</td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <h2><li>Tabla con bordes (MANERA ANTIGUA. NO USAR)</li></h2>
+      <table border="2" width="50%" style="text-align: center;">
+        <thead>
+          <tr>
+            
+            <th>Items</th>
+            <th>Proveedor 1</th>
+            <th>Proveedor 2</th>
+            <th>Proveedor 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            
+            <td>Cama</td>
+            <td rowspan="3">1000</td>
+            <td>3000</td>
+          </tr>
+          <tr>
+            <td>Bota</td>
+            <td>3000</td>
+            <td rowspan="2">20000</td>
+            
+          </tr>
+          <tr>
+            
+            <td>computador</td>
+            
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4">footer</td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <h2><li>Tabla con espacios</li></h2> 
+      <table border="2" width="50%" style="text-align: center;">
+        <thead>
+          <tr>
+            <th>Categoria</th>
+            <th>Items</th>
+            <th>Proveedor 1</th>
+            <th>Proveedor 2</th>
+            <th>Proveedor 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2">Hogar</td>
+            <td>Cama</td>
+            <td colspan="2">1000</td>
+            <td>3000</td>
+          </tr>
+          <tr>
+            <td>Bota</td>
+            <td>10000</td>
+            <td>20000</td>
+            <td>3000</td>
+          </tr>
+          <tr>
+            <td>Tecnología</td>
+            <td>computador</td>
+            <td colspan="3">10000</td>
+          </tr>
+        </tbody>
+        <tfoot>
+    </ol>
+  </body>
+</html>
